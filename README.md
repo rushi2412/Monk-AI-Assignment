@@ -49,6 +49,8 @@ We have also generated view in our python code. view - Parameter Update on epoch
 
 ![Figure_1](https://user-images.githubusercontent.com/55809031/123169712-43592d00-d497-11eb-837d-35547995e2da.png)
 
+![Figure_2](https://user-images.githubusercontent.com/55809031/123169809-64218280-d497-11eb-9884-774d8a550cb4.png)
+
 
 
 
