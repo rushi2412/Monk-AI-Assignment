@@ -37,6 +37,14 @@ Neural Network Model - Finally, putting together all the functions we can build 
 
 Prediction  - Using the learned parameter, we can predict the class for each example by using forward propagation. we get the training accuracy is around 99.19% which means that our model is working and fit the training data with high probability. The test accuracy is around 93.33%. Training F1 score is 0.99 and test F1 score is 0.99.Given the simple model and the small dataset, we can consider it as a good model.
 
+Accuracy Train: 99.166667
+
+F1 Score Train: 0.991667
+
+Accuracy Test: 93.333333
+
+F1 Score Test: 0.991667
+
 We have also generated view in our python code. view - Parameter Update on epoch & Loss function Vs Epoch.
 
 
