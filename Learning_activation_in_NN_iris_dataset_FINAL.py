@@ -4,7 +4,7 @@ Created on Tue Jun 22 11:16:39 2021
 
 @author: Rushi
 """
-########****************please adjust directoy of data set******************#########
+########****************please provide the path of local directory where you have saved the iris.csv dataset******************#########
 
 import numpy as np
 import matplotlib.pyplot as plt
