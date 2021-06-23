@@ -47,6 +47,8 @@ F1 Score Test: 0.991667
 
 We have also generated view in our python code. view - Parameter Update on epoch & Loss function Vs Epoch.
 
+![Figure_1](https://user-images.githubusercontent.com/55809031/123169712-43592d00-d497-11eb-837d-35547995e2da.png)
+
 
 
 
