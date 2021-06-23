@@ -4,6 +4,8 @@ Created on Tue Jun 22 11:16:39 2021
 
 @author: Rushi
 """
+########****************please adjust directoy of data set******************#########
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
