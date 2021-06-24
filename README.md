@@ -27,7 +27,15 @@ Define structure - We need to define the number of input units, the number of hi
 
 Initialize Model Parameter - We need to initialize the weight matrices and bias vectors. Weight is initialized randomly while bias is set to zeros.Also we need to initilize activation fumction parameter K0 & K1. we initilize them randomly with (K0 = np.random.randint(10)*0.1) & (K1 = np.random.randint(10)*0.1) these two function.
 
-Forward Propagation - For forward propagation, given the set of input features (X), we need to compute the activation function for each layer. For the hidden layer, we are using (activation function: g(x) = k0 + k1x), Similarly, for the output layer, we are using (softmax activation function: g(x) = Softmax(x)).
+Forward Propagation - For forward propagation, given the set of input features (X), we need to compute the activation function for each layer. For the hidden layer, we are using (activation function: g1(x) = k0 + k1x), Similarly, for the output layer, we are using (softmax activation function: g2(x) = Softmax(x)).
+
+z1 = a0 x w1 + b1
+
+a1 = g1(z1)
+
+z2 = a1 x w2 + b2
+
+a2 = g2(z2)
 
 Compute Loss - We will compute the cross-entropy cost. In the above section we calculated the output of our output layer. Using this output we can compute cross-entropy loss.
 
