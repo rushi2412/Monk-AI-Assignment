@@ -58,7 +58,7 @@ dB1 = avgcol(dZ1)
 
 K0 = avg(da1)
 
-K1 = avge(da1 * z1)
+K1 = avg(da1 * z1)
 
 Gradient Descent (update parameters) - We need to update the parameters using the gradient descent rule i.e. theta = theta - alpha(dj/d_theta).
 
