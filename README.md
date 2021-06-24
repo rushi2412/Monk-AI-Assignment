@@ -43,6 +43,10 @@ Compute Loss - We will compute the cross-entropy cost. In the above section we c
 
 Backpropagation - We need to calculate the gradient with respect to different parameters such as dK0, dK1, dW1, dB1, dW2, dB2.
 
+K0 = avg(da1)
+
+K1 = avge(da1 * z1)
+
 Gradient Descent (update parameters) - We need to update the parameters using the gradient descent rule i.e. theta = theta - alpha(dj/d_theta).
 
 Neural Network Model - Finally, putting together all the functions we can build a neural network model with a single hidden layer.
