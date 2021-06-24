@@ -1,7 +1,7 @@
 # Monk-AI-Assignment
 # Name - Rushikesh Bhosale
 
-# Before running the code, download the iris.csv dataset and in your IDE please provde the path of local directory where you have stored the downloaded iris.csv data set
+# Before running the code, download the iris.csv dataset and in your IDE please provide the path of local directory where you have stored the downloaded iris.csv data set
 
 Implement a 3-class classification neural network with a single hidden layer using Numpy.This model is a class of artificial neural network that uses back propagation technique for training. 
 
@@ -9,7 +9,7 @@ Algorithm
 -
 Import Libraries - We will import some basic python libraries like numpy, matplotlib (for plotting graphs), sklearn (for data mining and analysis tool), etc. that we will need.
 
-Dataset - We will use the Iris Dataset, It contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). It is a multi class classification problem. Now, let us divide the data into a training set and test set. This can be accomplished using sklearn train_test_split() function. 20% of data is selected for test and 80% for train. Also, we will check the size of the training set and test set. This will be useful later to design our neural network model.
+Dataset - We will use the Iris Dataset, It contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). It is a multi-class classification problem. Now, let us divide the data into a training set and test set. This can be accomplished using sklearn train_test_split() function. 20% of data is selected for test and 80% for train. Also, we will check the size of the training set and test set. This will be useful later to design our neural network model.
 
 Neural Network Model - 
 
@@ -26,7 +26,7 @@ The general methodology to build a Neural Network is to:
 
 Define structure - We need to define the number of input units, the number of hidden units, and the output layer. The input units are equal to the number of features in the dataset (4), hidden layer is set to 4 (for this purpose), and the problem is the 3 class classification we will use a 3 neuron in output.
 
-Initialize Model Parameter - We need to initialize the weight matrices and bias vectors. Weight is initialized randomly while bias is set to zeros.Also we need to initilize activation fumction parameter K0 & K1. we initilize them randomly with (K0 = np.random.randint(10)*0.1) & (K1 = np.random.randint(10)*0.1) these two function.
+Initialize Model Parameter - We need to initialize the weight matrices and bias vectors. Weight is initialized randomly while bias is set to zeros. Also we need to initialize activation function parameter K0 & K1. we initilize them randomly with (K0 = np.random.randint(10)*0.1) & (K1 = np.random.randint(10)*0.1) these two function.
 
 Forward Propagation - For forward propagation, given the set of input features (X), we need to compute the activation function for each layer. For the hidden layer, we are using (activation function: g1(x) = k0 + k1x), Similarly, for the output layer, we are using (softmax activation function: g2(x) = Softmax(x)).
 
