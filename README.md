@@ -39,6 +39,7 @@ a2 = g2(z2)
 
 Compute Loss - We will compute the cross-entropy cost. In the above section we calculated the output of our output layer. Using this output we can compute cross-entropy loss.
 
+![cross_entropy_loss](https://user-images.githubusercontent.com/55809031/123210081-20526b80-d4df-11eb-9fed-6536e289f2fe.png)
 
 Backpropagation - We need to calculate the gradient with respect to different parameters such as dK0, dK1, dW1, dB1, dW2, dB2.
 
