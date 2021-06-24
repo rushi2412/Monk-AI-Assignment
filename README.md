@@ -42,6 +42,19 @@ Compute Loss - We will compute the cross-entropy cost. In the above section we c
 ![cross_entropy_loss](https://user-images.githubusercontent.com/55809031/123210081-20526b80-d4df-11eb-9fed-6536e289f2fe.png)
 
 Backpropagation - We need to calculate the gradient with respect to different parameters such as dK0, dK1, dW1, dB1, dW2, dB2.
+dZ2 = a2 -  y
+
+dW2 = (a1.T X dZ2) / t
+
+dBw = avgcol(dZ2)
+
+da1 = dZ2 X W2.T
+
+dZ1 = g'(Z1) * da1
+
+dW1 = a0.T X dZ1 
+
+dB1 = avgcol(dZ1)
 
 K0 = avg(da1)
 
